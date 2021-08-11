@@ -1,0 +1,134 @@
+body{
+    background: rgb(255,139,119);
+    background: linear-gradient(90deg, rgba(255,139,119,1) 0%, rgba(224,79,79,1) 28%, rgba(255,53,53,1) 56%, rgba(231,77,0,1) 76%, rgba(255,0,35,1) 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "BPG Banner Caps", sans-serif;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input{
+    width: 120px;
+    height: 80px;
+    border-radius: 5%;
+    outline: none;
+    border:none;
+    margin-left:20px;
+    font-size: 35px;
+    margin-right:20px;
+    text-align: center;
+
+
+    
+}
+
+.answer{
+    font-size: 100px;
+    display: flex;
+    margin-top: 160px;
+  
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+.datvla{
+    border-radius: 10%;
+    font-size: 50px;
+    display: block;
+    margin-top: 150px;
+    margin:auto;
+    transform: translateY(20px);
+    transition: 0.5s;
+    background-color: rgb(250, 116, 75);
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+
+.First{
+    
+    display: flex;
+    margin-top: 170px;
+    font-size: 40px;
+    
+}
+
+.Second{
+    
+    display: flex;
+    margin-top: 50px;
+    font-size: 40px;
+     
+}
+
+.count{
+    border-radius: 10%;
+    font-size: 50px;
+    display: block;
+    margin-top: 150px;
+    margin:auto;
+    transform: translateY(100px);
+    transition: 0.5s;
+    background-color: rgb(245, 180, 95);
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+
+.count:hover { font-size: 60px; background-color: rgb(187, 255, 0);}
+.datvla:hover { font-size: 60px; background-color: rgb(187, 255, 0);}
+
+@media only screen and (max-width: 1100px ){
+
+    input{
+        font-size: 10px;
+        width:40px;
+        height: 30px;
+    }
+    .datvla{
+        font-size:22px;
+    }
+    .First{
+        font-size: 18px;
+    }
+    .Second{
+        font-size: 18px;
+    }
+    .count{
+        font-size: 20px;
+    }
+    .count:hover { font-size: 30px; background-color: rgb(187, 255, 0);}
+    .datvla:hover { font-size: 30px; background-color: rgb(187, 255, 0);}
+
+    .answer{
+       font-size: 30px;
+    }
+  
+
+}
+

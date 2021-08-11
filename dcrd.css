@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "BPG Banner Caps", sans-serif;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body{
+    background: rgb(255,167,119);
+background: linear-gradient(90deg, rgba(255,167,119,1) 0%, rgba(255,194,59,1) 17%, rgba(255,151,22,1) 94%, rgba(255,149,0,1) 100%);
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.A{
+    
+    display: flex;
+    margin-top: 50px;
+    font-size: 100px;
+     
+}
+
+input{
+    width: 100px;
+    height: 50px;
+    border-radius: 5%;
+    outline: none;
+    border:none;
+    text-align: center;
+    
+}
+
+.B{
+    display: flex;
+     margin-top: 50px;
+     font-size: 100px;
+}
+
+#x2{
+    font-size: 25px;
+}
+
+#x1{
+    font-size: 25px;
+}
+
+#y2{
+    font-size: 25px;
+}
+
+#y1{
+    font-size: 25px;
+}
+
+.mandzili{
+    font-size: 100px;
+    display: flex;
+    margin-top: 50px; 
+}
+
+
+.answer{
+    font-size: 100px;
+    display: flex;
+    margin-top: 50px;
+  
+}
+
+
+.datvla{
+    border-radius: 10%;
+    font-size: 50px;
+    display: block;
+    margin-top: 150px;
+    margin:auto;
+    transform: translateY(20px);
+    transition: 0.5s;
+    background-color: orange;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+
+
+.datvla:hover { font-size: 60px; background-color: rgb(255, 0, 0);}
+
+
+
+@media (max-width: 500px ){
+    .A{font-size: 50px;}
+    .B{font-size: 50px;}
+    #x1{font-size: 12.5px;}
+    #y1{font-size: 12.5px;}
+    #y2{font-size: 12.5px;}
+    #x2{font-size: 12.5px;}
+    input{
+        width: 50px;
+        height: 25px;        
+    }
+    .answer{
+        font-size: 50px;
+        
+    } 
+    
+    .mandzili{
+        font-size: 50px;
+        
+    }
+    .datvla{
+        font-size: 20px;
+    }
+
+    .datvla:hover { font-size: 30px; background-color: rgb(255, 0, 0);}
+}
+
+@media (max-height: 825px ){
+    .A{font-size: 50px;}
+    .B{font-size: 50px;}
+    #x1{font-size: 12.5px;}
+    #y1{font-size: 12.5px;}
+    #y2{font-size: 12.5px;}
+    #x2{font-size: 12.5px;}
+    input{
+        width: 50px;
+        height: 25px;        
+    }
+    .answer{
+        font-size: 50px;
+
+        
+    } 
+    .datvla:hover { font-size: 30px; background-color: rgb(255, 0, 0);}    
+    .mandzili{
+        font-size: 50px;
+        
+    }
+
+    .datvla{
+        font-size: 20px;
+    }
+}

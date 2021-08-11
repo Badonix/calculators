@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მანძილი</title>
+    <script href="dcoord.js" defer>
+        window.onload=function(){
+    var gilaki = document.getElementById('gilaki12')
+
+gilaki.addEventListener('click', function(){
+    var x1 = document.getElementById('x1').value
+    var y1 = document.getElementById('y1').value
+    var x2 = document.getElementById('x2').value
+    var y2 = document.getElementById('y2').value
+    console.log(x1)
+    console.log(y1)
+    console.log(x2)
+    console.log(y2)
+
+    var x2_x1=x2-x1
+    var y2_y1=y2-y1
+    var kv1=x2_x1**2
+    var kv2=y2_y1**2
+    var fesvqvesh = kv1+kv2
+    var pasuxi = Math.sqrt(fesvqvesh).toString()
+    pasuxi5 = pasuxi.substring(0,10)
+    
+    
+    console.log(pasuxi5)
+
+    document.getElementById('pasuxi').textContent = pasuxi5 + ' სმ'
+
+})
+}
+
+    </script>
+    <link rel="stylesheet" href="dcrd.css">
+    <link rel="stylesheet" href="fonts/css/bpg-banner-caps.min.css">
+</head>
+<body>
+ <div class="coordinates">
+    
+    <div class="A">
+        <h1 class="A">A {</h1> 
+        <input autocomplete="off"  required maxlength=5 type="text" class="A" id="x1" placeholder="    x1">
+        <h1 class="A">;</h1>
+        <input autocomplete="off"  required maxlength=5 type="text" class="A" id="y1" placeholder="    y1">
+        <h1 class="A">}</h1> 
+    </div>
+    <div class="B">
+        <h1 class="B">B {</h1>
+        <input autocomplete="off"  required maxlength="5" type="text" class="B" id="x2" placeholder="    x2">
+        <h1 class="B">;</h1>
+        <input autocomplete="off"  required maxlength="5" type="text" class="B" id="y2" placeholder="    y2" >
+        <h1 class="B">}</h1>
+    </div>
+    
+    <button  id="gilaki12" class="datvla">დათვლა</button>
+ 
+    <div class = "answer_div"> 
+        <h1 class="mandzili">მანძილი: </h1>
+        <h1 id="pasuxi" class="answer"></h1>
+    </div>
+
+   <a href="index.html"><button class="datvla" >Main Menu</button></a> 
+
+  
+    
+ </div>
+
+
+    
+
+
+    
+</body>
+</html>
